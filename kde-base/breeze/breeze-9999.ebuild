@@ -11,3 +11,5 @@ DESCRIPTION="Breeze visual style for the Plasma desktop"
 HOMEPAGE="https://projects.kde.org/projects/kde/workspace/breeze"
 KEYWORDS=""
 IUSE=""
+
+DEPEND="dev-qt/qtgraphicaleffects:5"
