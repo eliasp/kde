@@ -12,4 +12,8 @@ HOMEPAGE="https://projects.kde.org/projects/kde/workspace/breeze"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-qt/qtgraphicaleffects:5"
+DEPEND="x11-themes/qtcurve[qt5]"
+RDEPEND="
+	${DEPEND}
+	dev-qt/qtgraphicaleffects:5
+"
