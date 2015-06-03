@@ -24,6 +24,7 @@ DEPEND="
 	dev-qt/qtdbus:5
 	dev-qt/qtgui:5
 	dev-qt/qtwidgets:5
+	>=dev-util/cmake-3.0.0
 	sys-apps/systemd
 "
 RDEPEND="${DEPEND}
